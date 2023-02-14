@@ -1,0 +1,187 @@
+.session{
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 2rem;
+}
+.session .pre-cur{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.session .time-remaining{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: 4rem;
+    font-weight: 500;
+    color: blueviolet;
+}
+.session .main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.session .main-container{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    gap: 1rem;
+    width: 22rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+.session .main-container .inp{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+}
+.session .main-container .time{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 93%;
+}
+.session .main-container .inp input{
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 0.2rem 0.3rem;
+}
+.session .main-container .time input{
+    width: 40%;
+    font-size: 1rem;
+    padding: 0.2rem 0.3rem;
+}
+/* .session .main-container .gps{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 80%;
+}
+.session .main-container .gps input{
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.2rem 0.3rem;
+} */
+
+.session .title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: teal;
+}
+.session .main-container .butts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.session .main-container .save-btn{
+    background: teal;
+    border: none;
+    font-size: 1.3rem;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 0.6rem 3rem;
+    cursor: pointer;
+    transition: 2s;
+}
+.session .main-container .save-btn:hover{
+    background: rgb(40, 231, 231);
+}
+.session .main-container .cancel-btn{
+    background: crimson;
+    border: none;
+    font-size: 1.3rem;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 0.6rem 3rem;
+    cursor: pointer;
+    transition: 2s;
+}
+.session .main-container .cancel-btn:hover{
+    background: rgb(231, 91, 119);
+}
+
+.session .current{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+.session .current .current-title{
+   font-size: 2rem;
+   color: teal;
+   width: 60%;
+   font-weight: 600;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.658);
+   display: flex;
+   flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.session .current .icons{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+   margin-left: 2rem;
+   cursor: pointer;
+}
+.session .current .icons .add{
+   color: darkblue;
+}
+.session .current .icons .clock{
+   color: rgb(231, 166, 86);
+}
+.session .current .icons .printer{
+   color: blueviolet;
+}
+.session .current .icons .save{
+   color: teal;
+}
+.session .current .icons .edit{
+   color: orange;
+}
+.session .current .icons .delete{
+   color: crimson;
+}
+.session .current .students{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.session .current .stu{
+   width: 60%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   border-bottom: 0.2px solid rgba(128, 128, 128, 0.336);
+   padding: 1rem;
+}
+.session .current .stu span{
+   color: rgb(2, 39, 46);
+   font-weight: 600;
+}
